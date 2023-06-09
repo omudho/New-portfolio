@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/background.jpg);
+    background-image: url(./images/background.png);
     background-size: cover;
     background-position: center;
 }
@@ -70,7 +70,7 @@ nav ul li a:hover::after{
 /*----------about--------- */
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: #f8f4f4;
 }
 .row{
     display: flex;
@@ -130,6 +130,47 @@ nav ul li a:hover::after{
 }
 .tab-contents.active-tab{
     display: block;
+}
+/*----------true profesionalism-----*/
+#true-professionalism {
+    padding: 20px;
+    background-color: #060505;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.true-professionalism-col-1 {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+.true-professionalism-col-1 {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+h1.sub-title{
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+h3.sub-title{
+    color: #b54769;
+    font-size: 22px;
+    margin-top: 10px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
 }
 /*------------services-------*/
 #servvices{
@@ -192,6 +233,8 @@ transition: background 0.5s, transform 0.5s;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 .layer{
     width: 100%;
